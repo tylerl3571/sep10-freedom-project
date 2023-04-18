@@ -1,1 +1,14 @@
+.text {
+    font-family: 'Josefin Sans', sans-serif;
+}
 
+.title {
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
