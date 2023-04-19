@@ -5,6 +5,7 @@
 * 4/6-4/12: Vacation
 * 4/13-4/16: Spring Break
 * 4/17- onwards: Try and make website using notes and sources (MVP)
+* 4/19: Didn't finish carousel due to having to finish Aframe project first, then take screen shot and put it in the carousel
 * 5/1: Do Beyond MVP
 
 ## What to do:
