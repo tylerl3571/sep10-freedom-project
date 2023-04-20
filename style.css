@@ -25,6 +25,11 @@ body {
 }
 
 a-scene {
-    height: 300px;
-    width: 600px;
+    height: 500px;
+    width: 800px;
+    margin: 80px;
+  }
+
+  .embed {
+
   }
