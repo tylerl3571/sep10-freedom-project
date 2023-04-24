@@ -49,3 +49,39 @@ a-scene {
 .fontsize {
     font-size: 30px;
 }
+
+.text {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title {
+    font-family: 'Mukta', sans-serif;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.horizontalspacing {
+    margin-bottom: 70px;
+}
+
+.verticalspacing {
+    width: 400px;
+}
+
+.spacing {
+    margin-top: 70px;
+}
+
+.otherspacing {
+    margin-bottom: 30px;
+}
+
+.size {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
