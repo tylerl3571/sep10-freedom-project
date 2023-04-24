@@ -33,3 +33,19 @@ a-scene {
   .embed {
 
   }
+
+  .contactsection {
+    border-style: solid;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.secondcopyrightsection {
+    border-style: solid;
+    background-color: #191970;
+    color: white;
+}
+
+.fontsize {
+    font-size: 30px;
+}
