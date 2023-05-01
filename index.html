@@ -28,22 +28,13 @@
                 <div id="carouselExample" class="carousel slide size horizontalspacing">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="img/" class="d-block w-100" alt="...">
+                      <img src="img/snip-1.PNG" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="img/" class="d-block w-100" alt="...">
+                      <img src="img/snip-2.PNG" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="img/" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="img/" class="d-block w-100" alt="...">
+                      <img src="img/snip-3.PNG" class="d-block w-100" alt="...">
                     </div>
                   </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -108,9 +99,9 @@
                               <p class="text infotextsize">Stethoscope helped doctors hear your heartbeat and lungs from your chest.</p>
                             </div>
                             <div class="col-md-3">
-                              <h3 class="title">Present Technology</h3>
+                              <h3 class="title present">Present Technology</h3>
                               <img src="img/cardiac monitor.jpeg" alt="alternatetext">
-                              <p class="text infotextsize">Cardiac monitors allow patients to record their eletrical activity of their heart.</p>
+                              <p class="text infotextsize present">Cardiac monitors allow patients to record their eletrical activity of their heart.</p>
                             </div>
                             <div class="col-md-3">
                                 <h3 class="title">Future Technology</h3>
@@ -121,41 +112,35 @@
                     </div>
 
 
-                      <div id="myEmbeddedScene" class="container">
+                      <div id="myEmbeddedScene" class="container myEmbeddedScene">
                         <div class="row">
                           <div class="col-md-3">
                         <a-scene embedded>
-                          <a-entity geometry="primitive: circle; radius: 1" material="side: double"
-                            position="5 1 5"
-                            thetaStart: 0; thetaLength: 180;
-                            ></a-entity>
+                          <a-entity geometry="primitive: box; width: 8; height: 10; depth: 4"
+                          position="7 0 6"
+                          material="color: white"
+                          rotation=" 0 0 0"
+                          ></a-entity>
+                  <a-entity geometry="primitive: cone; radiusBottom: 0.5; radiusTop: 0.05"
+                    position="4 -1 8"
+                    material="color: red"
+                    rotation="0 90 90"
+                    ></a-entity>w
 
-                          <a-entity geometry="primitive: circle; radius: 1" material="side: double"
-                            position="5 1 7"
-                            thetaStart: 0; thetaLength: 180;
-                            ></a-entity>
-
-                          <a-entity geometry="primitive: circle; radius: 1" material="side: double"
-                            position="10 1 7"
-                            thetaStart: 0; thetaLength: 180;
-                            ></a-entity>
-
-                          <a-entity geometry="primitive: circle; radius: 1" material="side: double"
-                            position="10 1 5"
-                            thetaStart: 0; thetaLength: 180;
-                            ></a-entity>
-
-                          <a-entity geometry="primitive: box; width: 6.5; height: 2; depth: 1.5"
-                            position="7 1 6"
-                            rotation=" 0 0 0"
-                            ></a-entity>
-                            <a-plane
-                              position="0 0 -4"
-                              rotation="-90 0 0"
-                              width="100"
-                              height="100"
-                              color="#7BC8A4"
-                              ></a-plane>
+                        <a-entity geometry="primitive: box; width: 1; height: 1; depth: 1"
+                          position="7 -2 8"
+                          material="color: red"
+                          rotation=" 0 0 0"
+                          ></a-entity>
+                        <a-entity geometry="primitive: box; width: 1; height: 1; depth: 1"
+                          material="color: black"
+                          position="7 -2 7.8"
+                          rotation=" 0 0 0"
+                          ></a-entity>
+                        <a-entity geometry="primitive: box; width: 0.5; height: 1; depth: 0.5"
+                          material="color: red"
+                          position="9 1 8"
+                          ></a-entity>
                             <a-sky color="lightblue"></a-sky>
                         </a-scene>
                       </div>

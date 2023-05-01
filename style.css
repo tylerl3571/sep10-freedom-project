@@ -30,10 +30,6 @@ a-scene {
     margin: 80px;
   }
 
-  .embed {
-
-  }
-
   .contactsection {
     border-style: solid;
     margin-left: 150px;
@@ -83,5 +79,15 @@ a-scene {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 20%;
+}
+
+.myEmbeddedScene {
+    margin-right: 10px;
+}
+
+.gallerysection {
+    border-style: solid;
+    margin-right: 150px;
+    margin-left: 150px;
 }
