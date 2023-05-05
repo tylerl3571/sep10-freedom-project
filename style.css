@@ -91,3 +91,27 @@ a-scene {
     margin-right: 150px;
     margin-left: 150px;
 }
+
+.darkblue {
+    background-color: #248AB3;
+}
+
+.lightblue {
+    background-color: #4CCDFF;
+}
+
+.lighterblue {
+    background-color: #66D4FF;
+}
+
+.lightbrown {
+    background-color: #FFAA4D;
+}
+
+.darkbrown {
+    background-color: #B36612;
+}
+
+.lightestblue {
+    background-color: #ADD8E6
+}
